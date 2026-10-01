@@ -9,10 +9,15 @@ const products = [
   { id: 1, title: "三白眼ポニーテールMILFの紳士向けイラスト集", details: "画像50枚・動画5本・PDF", image: "assets/products/01_package.jpg", links: { booth: "https://geeslab.booth.pm/items/8076993", fanza: "https://www.dmm.co.jp/dc/doujin/-/detail/=/cid=d_801891/" } }
 ];
 
+const liteProducts = [
+  { id: 1, title: "金髪ツインテ巨乳MILF", details: "画像72枚", image: "assets/products/lite_01_package.jpg", links: { booth: "https://geeslab.booth.pm/items/8926573" } }
+];
+
 const storeNames = { booth: "BOOTH", fanza: "FANZA", dlsite: "DLsite" };
 const productGrid = document.getElementById("product-grid");
+const liteProductGrid = document.getElementById("lite-product-grid");
 
-productGrid.innerHTML = products.map((product, index) => {
+const renderProducts = (items, label) => items.map((product, index) => {
   const links = Object.entries(product.links).map(([store, url]) => `<a class="product-link" href="${url}" target="_blank" rel="noopener noreferrer">${storeNames[store]}で見る</a>`).join("");
   const image = `<img class="product-image" src="${product.image}" alt="${product.title} パッケージ画像" width="560" height="420" loading="${index < 2 ? "eager" : "lazy"}">`;
   const imageBlock = product.links.booth
@@ -22,10 +27,13 @@ productGrid.innerHTML = products.map((product, index) => {
   return `<article class="product-card${index === 0 ? " featured-product" : ""}">
     ${imageBlock}
     <div class="product-body">
-      <div class="product-meta"><span>WORK ${String(product.id).padStart(2, "0")}</span>${badge ? `<span class="new-badge">${badge}</span>` : ""}</div>
+      <div class="product-meta"><span>${label} ${String(product.id).padStart(2, "0")}</span>${badge ? `<span class="new-badge">${badge}</span>` : ""}</div>
       <h3>${product.title}</h3><p>${product.details}</p><div class="product-links">${links}</div>
     </div>
   </article>`;
 }).join("");
+
+liteProductGrid.innerHTML = renderProducts(liteProducts, "LITE");
+productGrid.innerHTML = renderProducts(products, "WORK");
 
 document.getElementById("year").textContent = new Date().getFullYear();

@@ -95,6 +95,22 @@ a:focus-visible { outline: 3px solid var(--magenta); outline-offset: 4px; }
 .heading-row { display: grid; grid-template-columns: 1fr minmax(280px, 460px); align-items: end; gap: 48px; }
 .heading-row > p { margin-bottom: 6px !important; }
 
+.product-groups { display: grid; gap: clamp(72px, 9vw, 112px); }
+.product-group--lite {
+  padding: clamp(24px, 4vw, 48px);
+  background: linear-gradient(135deg, rgba(216, 0, 116, 0.08), rgba(255, 253, 250, 0.84));
+  border: 1px solid rgba(158, 0, 85, 0.2);
+}
+.product-group-heading {
+  margin-bottom: 28px;
+  display: grid;
+  grid-template-columns: 1fr minmax(260px, 420px);
+  align-items: end;
+  gap: 40px;
+}
+.series-label { margin: 0 0 6px; color: var(--magenta-dark); font-size: 0.7rem; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; }
+.product-group-heading h3 { margin: 0; font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: clamp(1.75rem, 3vw, 2.7rem); font-weight: 600; line-height: 1.25; }
+.product-group-heading > p { margin: 0 0 4px; color: var(--ink-soft); font-size: 0.88rem; }
 .product-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 46px 28px; }
 .product-card {
   min-width: 0;
@@ -141,6 +157,7 @@ a:focus-visible { outline: 3px solid var(--magenta); outline-offset: 4px; }
 
 @media (max-width: 880px) {
   .heading-row { grid-template-columns: 1fr; gap: 16px; }
+  .product-group-heading { grid-template-columns: 1fr; gap: 10px; }
   .product-grid { gap: 24px; }
   .featured-product { display: block; }
   .store-grid { grid-template-columns: 1fr; }
@@ -154,6 +171,7 @@ a:focus-visible { outline: 3px solid var(--magenta); outline-offset: 4px; }
   .brand img { width: 126px; }
   .nav { gap: 13px; font-size: 0.75rem; }
   .nav a:last-child { display: none; }
+  .product-group--lite { padding: 20px; }
   .product-grid { grid-template-columns: 1fr; }
   .product-body, .featured-product .product-body { padding: 22px; }
   .footer-inner, .footer-meta { align-items: flex-start; flex-direction: column; }

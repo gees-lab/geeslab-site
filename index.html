@@ -18,7 +18,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta property="og:image" content="assets/hero.png">
   <title>gee's lab｜AIイラスト作品</title>
   <link rel="icon" href="assets/logo_geeslab.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/style.css?v=20260917b">
+  <link rel="stylesheet" href="css/style.css?v=20261002">
 
 </head>
 <body>
@@ -51,7 +51,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div><p class="eyebrow">Works</p><h2>作品一覧</h2></div>
           <p>最新作から順に掲載しています。作品ごとに利用できる販売サイトをご確認ください。</p>
         </div>
-        <div id="product-grid" class="product-grid" aria-live="polite"></div>
+        <div class="product-groups">
+          <section class="product-group product-group--lite" aria-labelledby="lite-series-title">
+            <div class="product-group-heading">
+              <div><p class="series-label">New lineup</p><h3 id="lite-series-title">liteシリーズ</h3></div>
+              <p>コンパクトな作品を気軽に楽しめるシリーズです。</p>
+            </div>
+            <div id="lite-product-grid" class="product-grid" aria-live="polite"></div>
+          </section>
+          <section class="product-group" aria-labelledby="regular-series-title">
+            <div class="product-group-heading">
+              <div><p class="series-label">Regular works</p><h3 id="regular-series-title">通常作品</h3></div>
+              <p>画像・動画・PDFを収録した作品ラインナップです。</p>
+            </div>
+            <div id="product-grid" class="product-grid" aria-live="polite"></div>
+          </section>
+        </div>
       </div>
     </section>
 
@@ -90,6 +105,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="footer-meta"><span>© <span id="year"></span> gee's lab</span><a href="#top">ページ上部へ</a></div>
     </div>
   </footer>
-  <script src="js/main.js?v=20260930"></script>
+  <script src="js/main.js?v=20261002"></script>
 </body>
 </html>
