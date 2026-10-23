@@ -7,7 +7,7 @@ window.geeslabCatalog = {
       contents: ["本編画像150枚", "動画5本", "PDF"],
       image: "09_package.jpg",
       intro: "気軽な水着撮影のつもりでスタジオを訪れた、少し天然な専業主婦。撮影が進むにつれて要求は徐々に大胆になり、流されるまま想像していなかった展開へ踏み込んでいきます。",
-      links: { booth: "https://geeslab.booth.pm/items/8971701" }
+      links: { booth: "https://geeslab.booth.pm/items/8971701", fanza: "https://www.dmm.co.jp/dc/doujin/-/detail/=/cid=d_835664/" }
     },
     {
       id: 8,
