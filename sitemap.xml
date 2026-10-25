@@ -1,33 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.geeslab.com/</loc>
+    <loc>https://geeslab.com/</loc>
   </url>
   <url>
-    <loc>https://www.geeslab.com/works/01/</loc>
+    <loc>https://geeslab.com/works/01/</loc>
   </url>
   <url>
-    <loc>https://www.geeslab.com/works/02/</loc>
+    <loc>https://geeslab.com/works/02/</loc>
   </url>
   <url>
-    <loc>https://www.geeslab.com/works/03/</loc>
+    <loc>https://geeslab.com/works/03/</loc>
   </url>
   <url>
-    <loc>https://www.geeslab.com/works/04/</loc>
+    <loc>https://geeslab.com/works/04/</loc>
   </url>
   <url>
-    <loc>https://www.geeslab.com/works/05/</loc>
+    <loc>https://geeslab.com/works/05/</loc>
   </url>
   <url>
-    <loc>https://www.geeslab.com/works/06/</loc>
+    <loc>https://geeslab.com/works/06/</loc>
   </url>
   <url>
-    <loc>https://www.geeslab.com/works/07/</loc>
+    <loc>https://geeslab.com/works/07/</loc>
   </url>
   <url>
-    <loc>https://www.geeslab.com/works/08/</loc>
+    <loc>https://geeslab.com/works/08/</loc>
   </url>
   <url>
-    <loc>https://www.geeslab.com/works/09/</loc>
+    <loc>https://geeslab.com/works/09/</loc>
+  </url>
+  <url>
+    <loc>https://geeslab.com/works/10/</loc>
   </url>
 </urlset>
