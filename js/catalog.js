@@ -16,7 +16,7 @@ window.geeslabCatalog = {
       contents: ["本編画像145枚", "動画5本", "PDF"],
       image: "10_package.jpg",
       intro: "農業体験にやって来た若者を、親切に迎え入れた田舎暮らしの人妻。穏やかに過ぎるはずだった時間は、ふとしたきっかけから二人だけの秘密へと変わっていきます。",
-      links: { booth: "https://geeslab.booth.pm/items/9042805", fanza: "https://www.dmm.co.jp/dc/doujin/-/detail/=/cid=d_842544/" }
+      links: { booth: "https://geeslab.booth.pm/items/9042805", fanza: "https://www.dmm.co.jp/dc/doujin/-/detail/=/cid=d_842544/", dlsite: "https://www.dlsite.com/aix/work/=/product_id/RJ01758929.html" }
     },
     {
       id: 9,
@@ -25,7 +25,7 @@ window.geeslabCatalog = {
       contents: ["本編画像150枚", "動画5本", "PDF"],
       image: "09_package.jpg",
       intro: "気軽な水着撮影のつもりでスタジオを訪れた、少し天然な専業主婦。撮影が進むにつれて要求は徐々に大胆になり、流されるまま想像していなかった展開へ踏み込んでいきます。",
-      links: { booth: "https://geeslab.booth.pm/items/8971701", fanza: "https://www.dmm.co.jp/dc/doujin/-/detail/=/cid=d_835664/" }
+      links: { booth: "https://geeslab.booth.pm/items/8971701", fanza: "https://www.dmm.co.jp/dc/doujin/-/detail/=/cid=d_835664/", dlsite: "https://www.dlsite.com/aix/work/=/product_id/RJ01758916.html" }
     },
     {
       id: 8,
